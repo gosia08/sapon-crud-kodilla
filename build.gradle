@@ -22,5 +22,5 @@ dependencies {
     compile 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
 
-    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    //providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 }

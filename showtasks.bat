@@ -5,7 +5,7 @@ echo RUNCRUD.BAT has errors - breaking work
 goto fail
 
 :openbrowser
-start chrome "http://localhost:7777/crud/v1/task/getTasks"
+start chrome "http://localhost:8080/crud/v1/task/getTasks"
 if "%ERRORLEVEL%" == "0" goto end
 echo Cannot open the browser
 goto fail
