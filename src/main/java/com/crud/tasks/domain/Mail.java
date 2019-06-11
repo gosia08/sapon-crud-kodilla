@@ -1,7 +1,5 @@
 package com.crud.tasks.domain;
 
-
-import com.sun.mail.imap.SortTerm;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
